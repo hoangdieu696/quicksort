@@ -25,23 +25,5 @@ public class Quicksort {
 			run(a, i, r);
 	}
 
-	public static void main(String[] args) {
-		
-		int arr[] = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
-		System.out.print("Mang ban dau: ");
-		for(int i = 0; i < arr.length; i++) {
-			System.out.print(arr[i] + " ");
-		}
-		System.out.println();
-		
-		Quicksort qs = new Quicksort();
-		qs.run(arr, 0, arr.length - 1);
-		
-		System.out.print("Mang da sap xep: ");
-		for(int i = 0; i < arr.length; i++) {
-			System.out.print(arr[i] + " ");
-		}
-		System.out.println();
-	}
 
 }
