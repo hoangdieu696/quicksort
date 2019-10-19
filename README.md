@@ -2,7 +2,7 @@
 
 ### Description
 - Implements Quicksort algorithm with Maven
-- Current version: 1.0
+- Current version: 1.x
 
 ### Common commands
 
@@ -31,3 +31,7 @@ mvn clean install site
 ```sh
 mvn -Dtest=QuicksortTestNG test # using TestNG
 ```
+
+- Jenkins cronjob:
+
+![](images/cronjob.png)
